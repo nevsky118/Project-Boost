@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5156868940212737572}
   m_Layer: 0
   m_Name: Terrain Obsticles (Friendly)
-  m_TagString: Friendly
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -254,7 +254,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6275222508436030051}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -21.4, y: 8.2719965, z: 14.35}
+  m_LocalPosition: {x: -21.4, y: 8.2719965, z: 8.740001}
   m_LocalScale: {x: 10.484475, y: 4.4208, z: 15.044982}
   m_Children: []
   m_Father: {fileID: 5156868940212737572}
@@ -361,7 +361,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5209694544743786657, guid: 6bb61303aa8daf246b558f9c98fee0bc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.5
+      value: 10.67
       objectReference: {fileID: 0}
     - target: {fileID: 5209694544743786657, guid: 6bb61303aa8daf246b558f9c98fee0bc, type: 3}
       propertyPath: m_LocalRotation.x
@@ -394,6 +394,18 @@ PrefabInstance:
     - target: {fileID: 5209694544743786657, guid: 6bb61303aa8daf246b558f9c98fee0bc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5209694544743786657, guid: 6bb61303aa8daf246b558f9c98fee0bc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5209694544743786657, guid: 6bb61303aa8daf246b558f9c98fee0bc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5209694544743786657, guid: 6bb61303aa8daf246b558f9c98fee0bc, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bb61303aa8daf246b558f9c98fee0bc, type: 3}
